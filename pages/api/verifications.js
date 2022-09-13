@@ -2,7 +2,7 @@ const {
   apiUrl = 'https://dm.test.aliveplatform.com/api',
   apiUsername = null,
   apiPassword = null,
-  isTest = true
+  isTest = false
 } = process.env;
 
 export default function handler(req, res) {

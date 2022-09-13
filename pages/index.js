@@ -69,7 +69,7 @@ export default function Home() {
       </label>
 
       <label>
-        Ім'я:
+        Імʼя:
         <input type="text" value={cardholderName} onChange={onNameChange} />
       </label>
 
