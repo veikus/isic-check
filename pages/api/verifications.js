@@ -76,8 +76,7 @@ function demoResult(req, res) {
     })
   } else {
     res.status(404).json({
-      code: 'CARD_NOT_FOUND',
-      message: 'Card not found'
+      message: 'Картка не знайдена, перевірте введені дані'
     })
   }
 }
